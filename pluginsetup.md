@@ -8,7 +8,7 @@ Download source code from this link and unzip somewhere you maintain source code
 
 [Source code](https://drive.google.com/open?id=0B7Pg8CqDFMwLSkRkNTE5Ujd4TTQ)
 
-## Set Up and Install Plugin for Cordova based app.
+###Set Up and Install Plugin for Cordova based app.
 
 #####Install Cordova
 If Cordova is not install, then install the cordova module using npm utility of Node.js. The cordova module will automatically be downloaded by the npm utility.
@@ -66,32 +66,32 @@ Use plugin ls (or plugin list) to view currently installed plugins. Each display
 $ cordova plugin ls
 ```
 
-## Set Up and Install Plugin for Ionic app
+###Set Up and Install Plugin for Ionic app
 
-##Alternate flow to setup and install plugin on Ionic app, incase if you have installed ionic.
+Alternate flow to setup and install plugin on Ionic app, incase if you have installed ionic.
 
-###Create ionic application 
+#####Create ionic application 
 
 ```bash
 ionic start myApp sidemenu
 ```
 
-### Add platform iOS
+##### Add platform iOS
 ```bash
 ionic platform add ios
 ```
 
-### Install plugin 
+##### Install plugin 
 ```bash
 ionic plugin add ./../../source-evo-plugin-dev/
 ```
 
-### See list of plugins
+##### See list of plugins
 ```bash
 ionic plugin list
 ```
 
-### Delete existing plugin
+##### Delete existing plugin
 ```bash
 ionic plugin remove source-evo-plugin-dev
 ```
