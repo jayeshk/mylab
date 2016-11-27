@@ -20,22 +20,22 @@ To set up maps first needs to obtain api key from Skobbler developer site[http:/
 ```javascript
 
 Skobbler.setUpMaps({
-                       apiKey:'~~~REPLACE API KEY~~~',
-                       mapDetailLevel:'light',
-                    }, 
-                    function (success)
-                    {
-                        console.log(success)
-                    }, 
-                    function (error) {
-                        console.log(error)
-                        alert(JSON.stringify(error));
-                    }
-                    );
+		apiKey:'~~~REPLACE API KEY~~~',
+		mapDetailLevel:'light',
+	}, 
+	function (success) {
+		console.log(success)
+	}, 
+	function (error) {
+		console.log(error)
+		alert(JSON.stringify(error));
+	}
+);
 
 ```
-*apiKey: needs to obtain from skobbler site.(required)
-*mapDetailLevel: light, full (optional)
+*apiKey: (required) needs to obtain from skobbler site.
+
+*mapDetailLevel: (optional) light, full 
 
 
 ### Calculate route and show navigation between points.
@@ -46,18 +46,19 @@ To set up maps first needs to obtain api key from Skobbler developer site[http:/
 ```javascript
 
 Skobbler.showNavigation({
-                         route:{
-                         	mode:2,
-                            	startCoordinate:{'lat':37.9667, 'lng':23.7167},
-                                destinationCoordinate:{'lat':37.9677, 'lng':23.7567}
-                               }
-                            }, 
-                            function(success){}, 
-                            function(error){}
-                        );
+	route:{
+		mode:2,
+		startCoordinate:{'lat':37.9667, 'lng':23.7167},
+		destinationCoordinate:{'lat':37.9677, 'lng':23.7567}
+		}
+	}, 
+	function(success){}, 
+	function(error){}
+);
 
 ```
 *mode: (optional) default is RouteCarEfficient, possible optionals as below - 
+
 RouteCarShortest = 0,
 RouteCarFastest = 1,
 RouteCarEfficient = 2,
@@ -68,11 +69,8 @@ RouteBicycleQuietest = 6,
 RouteBusFastest = 7
 
 *startCoordinate: (required)
+
 *destinationCoordinate: (required
-
-
-
-
 
 
 ## License
