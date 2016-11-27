@@ -14,7 +14,7 @@ All plugin methods takes 3 arguments - option, success callback, failure callbac
 
 ### Setup maps with api key.
 
-To set up maps first needs to obtain api key from Skobbler developer site[http://developer.skobbler.com/getting-started/ios] to use maps. 
+To set up maps first needs to obtain api key from Skobbler developer site [http://developer.skobbler.com/getting-started/ios] to use maps. 
 
 
 ```javascript
@@ -40,8 +40,7 @@ Skobbler.setUpMaps({
 
 ### Calculate route and show navigation between points.
 
-To set up maps first needs to obtain api key from Skobbler developer site[http://developer.skobbler.com/getting-started/ios] to use maps. 
-
+Calculates route between two points and show map navigation.
 
 ```javascript
 
@@ -70,7 +69,7 @@ RouteBusFastest = 7
 
 *startCoordinate: (required)
 
-*destinationCoordinate: (required
+*destinationCoordinate: (required)
 
 
 ## License
