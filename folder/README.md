@@ -14,7 +14,7 @@ All plugin methods takes 3 arguments - option, success callback, failure callbac
 
 ### Setup maps with api key.
 
-To set up maps first needs to obtain api key from Skobbler developer site [http://developer.skobbler.com/getting-started/ios] to use maps. 
+To set up maps first needs to obtain api key from [Skobbler developer site](http://developer.skobbler.com/getting-started/ios) to use maps. 
 
 
 ```javascript
