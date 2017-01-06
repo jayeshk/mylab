@@ -94,9 +94,9 @@ RouteBusFastest = 7
 *destinationCoordinate: (required)
 
 
-### Add drift points and users.
+### Add drift points and users (This method will be refactored as - 'showDriftAgreedOption' )
 
-Add drift points and users markers
+Add drift points and users markers 
 
 ```javascript
 
