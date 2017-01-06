@@ -15,7 +15,7 @@ All plugin methods take 3 arguments - option, success callback, failure callback
 
 ### Setup maps with api key.
 
-To set up maps first needs to obtain api key from [Skobbler developer site](http://developer.skobbler.com/getting-started/ios) to use maps. This method will setup map and will download required meta data. The SDK requires some meta files to be present in order to be able to render the map (in offline). Meta files may be downloaded on-demand from Skobbler servers while Map setup ( *alternatively approch - future it may be distributed prebundled in app)
+To set up maps first needs to obtain api key from [Skobbler developer site](http://developer.skobbler.com/getting-started/ios). This method will setup map and download required meta data. The SDK requires some meta files to be present in order to be able to render the map (in offline). Meta files may be downloaded on-demand from Skobbler servers while Map serviceing are intilizing. ( *alternate approch - future meta files may be distributed prebundled in app)
 
 If the application doesn't call the initialization method before using other framework API, it will give an error.
 
@@ -129,9 +129,9 @@ Skobbler.clearAnnotations({},
 
 ```
 
-### Query current status of metadata. Meta files required for map. See 'setUp' method
+### Query current status of metadata. 
 
-Utility method to check current meta files status, can be used to verify meta files are loaded, before using other map features.
+Meta files required for map. See 'setUp' method. Utility method to check current meta files status, can be used to verify meta if files are loaded before using other map features.
 
 ```javascript
 
