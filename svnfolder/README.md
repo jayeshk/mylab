@@ -9,9 +9,9 @@ cordova plugin add cordova-skobblermap-plugin
 ```
 ## Usage
 
-All plugin methods takes 3 arguments - option, success callback, failure callback.
+All plugin methods take 3 arguments - option, success callback, failure callback.
 
-* In order to receive GPS locations, location usage key must may be added in project configuration, while installing plugin usage discription can be passed to key $LOCATION_USAGE_DESCRIPTION. 
+* In order to use GPS features, location usage key will be added in project configuration, while installing plugin 'location usage' discription can be set using key $LOCATION_USAGE_DESCRIPTION. 
 
 ### Setup maps with api key.
 
